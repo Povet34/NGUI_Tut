@@ -1,2 +1,2 @@
-# NGUI_Tut
-NGUI_Tut
+# UnityRiggingTest
+UnityRiggingTest
