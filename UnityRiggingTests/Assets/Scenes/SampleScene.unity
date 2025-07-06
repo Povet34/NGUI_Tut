@@ -169,7 +169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &75274701
 Transform:
   m_ObjectHideFlags: 0
@@ -281,7 +281,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   m_Bones:
   - {fileID: 2073616486}
   - {fileID: 492493461}
@@ -407,7 +407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &472297422
 Transform:
   m_ObjectHideFlags: 0
@@ -633,7 +633,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   m_Bones:
   - {fileID: 986838455}
   - {fileID: 896973417}
@@ -915,7 +915,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainAvatarRenderer: {fileID: 1146613243}
-  newClothes: []
+  newClothes:
+  - {fileID: 2019036956}
+  - {fileID: 205575557}
+  - {fileID: 514364069}
   currentClothIndex: 0
 --- !u!114 &907227926
 MonoBehaviour:
@@ -1806,7 +1809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1834695074
 Transform:
   m_ObjectHideFlags: 0
@@ -1919,7 +1922,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   m_Bones:
   - {fileID: 1551756538}
   - {fileID: 1711331565}
