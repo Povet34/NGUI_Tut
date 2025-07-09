@@ -17,7 +17,7 @@ public class AddressableRemoteLoader : MonoBehaviour
         StartCoroutine(InitializeAddressableSystem());
     }
 
-    IEnumerator InitializeAddressableSystem()
+    public IEnumerator InitializeAddressableSystem()
     {
         // Addressable 시스템 초기화
         var initHandle = Addressables.InitializeAsync();
@@ -43,7 +43,7 @@ public class AddressableRemoteLoader : MonoBehaviour
         }
     }
 
-    IEnumerator CheckForCatalogUpdates()
+    public IEnumerator CheckForCatalogUpdates()
     {
         Debug.Log("Checking for catalog updates...");
 
@@ -85,7 +85,7 @@ public class AddressableRemoteLoader : MonoBehaviour
         Addressables.Release(checkHandle);
     }
 
-    IEnumerator CheckDownloadSize()
+    public IEnumerator CheckDownloadSize()
     {
         Debug.Log("Checking download size for all labels...");
 
@@ -113,7 +113,7 @@ public class AddressableRemoteLoader : MonoBehaviour
         Debug.Log($"Total download size: {FormatBytes(totalSize)}");
     }
 
-    IEnumerator DownloadAndLoadBundles()
+    public IEnumerator DownloadAndLoadBundles()
     {
         Debug.Log("Starting bundle download and load process...");
 
@@ -121,11 +121,20 @@ public class AddressableRemoteLoader : MonoBehaviour
         {
             yield return StartCoroutine(DownloadAndLoadBundle(label));
         }
-
         Debug.Log("All bundles loaded successfully!");
+
+        // 모든 로드된 에셋 이름 출력
+        foreach (var kvp in loadedAssets)
+        {
+            Debug.Log($"Label: {kvp.Key}");
+            foreach (var go in kvp.Value)
+            {
+                Debug.Log($"  - {go.name}");
+            }
+        }
     }
 
-    IEnumerator DownloadAndLoadBundle(string label)
+    public IEnumerator DownloadAndLoadBundle(string label)
     {
         Debug.Log($"Downloading and loading bundle for label: {label}");
 
