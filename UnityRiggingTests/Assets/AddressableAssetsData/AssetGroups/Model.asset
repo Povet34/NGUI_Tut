@@ -18,20 +18,10 @@ MonoBehaviour:
   m_GUID: c81664c9aa496734e96a5ca6e57c8f54
   m_SerializeEntries:
   - m_GUID: 9a473acc95004a0408c07ee7ab09cb43
-    m_Address: Assets/Mixamo/Vanguard By T. Choonyung.fbx
+    m_Address: Assets/Mixamo/Vanguard.fbx
     m_ReadOnly: 0
     m_SerializedLabels:
     - Model
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a9ce3096b54857144bd8175cca883d98
-    m_Address: Assets/Mixamo/vanguard_diffuse1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e152989ae73a79142b5ceea31844ca89
-    m_Address: Assets/Mixamo/vanguard_normal.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d80824d752ed6f84580dcda84d35e5f5, type: 2}

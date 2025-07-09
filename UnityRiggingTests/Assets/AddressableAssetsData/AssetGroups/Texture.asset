@@ -12,11 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: Texture
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: Texture
   m_Data:
     m_SerializedData: []
   m_GUID: 937ad576f9cc1514184d9ad37425f752
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: a9ce3096b54857144bd8175cca883d98
+    m_Address: Assets/Mixamo/vanguard_diffuse1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e152989ae73a79142b5ceea31844ca89
+    m_Address: Assets/Mixamo/vanguard_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d80824d752ed6f84580dcda84d35e5f5, type: 2}
   m_SchemaSet:
